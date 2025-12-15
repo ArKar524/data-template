@@ -107,7 +107,7 @@ export default function AdvancedSettings() {
               </p>
             </div>
 
-            <Button variant="filledl" size="sm">
+            <Button variant="filled" size="sm">
               Delete
             </Button>
           </div>
