@@ -1,8 +1,9 @@
 import { Button, Card, CardContent, CardHeader, Input, Label, Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@mijn-ui/react"
 import Link from "next/link";
+import type { SVGProps } from "react";
 
 // SVG Icon for Template/Document (easily portable)
-const TemplateIcon = (props) => (
+const TemplateIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     {...props}
     xmlns="http://www.w3.org/2000/svg"
